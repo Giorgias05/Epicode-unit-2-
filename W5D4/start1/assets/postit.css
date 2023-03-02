@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+#blackboard {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    padding: 2em;
+    border-radius: 18px;
+}
+
+body{
+    background-color: rgb(94, 87, 87);
+    font-family: 'Indie Flower', 'cursive';
+    
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+} 
+
+.postit {
+    font-size: 1.6em;
+    padding-left: 2em;
+    margin: 1em;
+    width: 180px;
+    height: 200px;
+    border:solid 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: transform 1s;
+  }
+  
+
+  .postit:nth-of-type(1) {
+    background-color: rgb(233, 233, 170);
+    transform: rotate(-4deg);
+  }
+  .postit:nth-of-type(5) {
+    background-color: rgb(233, 233, 170);
+    transform: rotate(-4deg);
+  }
+  .postit:nth-of-type(7) {
+    background-color:  rgb(233, 233, 170);
+    transform: rotate(-3deg);
+  }
+
+  
+  .postit:nth-of-type(2) {
+    background-color: rgb(178, 243, 180);
+    transform: rotate(3deg);
+  }
+ 
+  .postit:nth-of-type(4) {
+    background-color: rgb(178, 243, 180);
+    transform: rotate(7deg);
+  }
+
+  .postit:nth-of-type(8) {
+    background-color:  rgb(178, 243, 180);
+    transform: rotate(2deg);
+  }
+
+
+  .postit:nth-of-type(3) {
+    background-color: rgb(138, 138, 207);
+    transform: rotate(-6deg);
+  }
+
+  .postit:nth-of-type(6) {
+    background-color: rgb(138, 138, 207);
+    transform: rotate(-6deg);
+  }
+
+  .postit:hover {
+    transform: rotate(-6deg);
+    transform: scale(1.3);
+    position: relative;
+}
+
