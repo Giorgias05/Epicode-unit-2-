@@ -1,0 +1,39 @@
+/*body*/
+  html,body {
+  background-image: url('/assets/img/sunglasses.jpg');
+ }
+ 
+
+small {
+  font-size: 0.5em;
+}
+
+
+/*nav bar*/
+nav .navbar-brand {
+  width: 15% !important;
+  max-width: 85px;
+}
+
+.nav {
+  background-color: white;
+}
+nav img {
+  width: 120%;
+}
+
+/*cards*/
+.card {
+  width: 100%;
+  aspect-ratio: 3/5;
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+/*footer*/
+footer{
+   background-color:white;
+color:rgb(14, 13, 13);
+}
